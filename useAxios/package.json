@@ -1,0 +1,30 @@
+{
+  "name": "@react-qooks/use-axios",
+  "version": "1.0.1",
+  "description": "React Hook to fetch using axios.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qvil/react-qooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "axios",
+    "fetch"
+  ],
+  "author": "Taesu Hyeon <qvil1127@gmail.com> (https://github.com/qvil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qvil/react-qooks/issues"
+  },
+  "homepage": "https://github.com/qvil/react-qooks#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
