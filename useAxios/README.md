@@ -10,12 +10,14 @@ npm i @react-qooks/use-axios
 
 ## Basic Usage
 
+[Live Demo(Code Sandbox)](https://codesandbox.io/embed/react-qooksuse-axios-basic-example-uige8)
+
 ```js
 import React from "react";
 import useAxios from "@react-qooks/use-axios";
 
 function App() {
-  const render = useAxios(API_URL, fetchTrigger);
+  const render = useAxios(API_URL);
 
   return render({
     loading: () => <div>Loading</div>,
@@ -26,6 +28,8 @@ function App() {
 ```
 
 ## Advanced Usage
+
+[Live Demo(Code Sandbox)](https://codesandbox.io/embed/react-qooksuse-axios-advanced-example-ob6kj)
 
 ```js
 import React, { useState } from "react";
