@@ -44,6 +44,7 @@ function App() {
         data: data => <div>{JSON.stringify(data)}</div>
       })}
     </div>
+  );
 }
 ```
 
