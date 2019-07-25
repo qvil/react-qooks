@@ -1,0 +1,17 @@
+{
+  "name": "@react-qooks/use-debounce",
+  "version": "1.0.0",
+  "description": "React Hook to debounce",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "hooks",
+    "debounce"
+  ],
+  "author": "Taesu Hyeon <qvil1127@gmail.com> (https://github.com/qvil)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
